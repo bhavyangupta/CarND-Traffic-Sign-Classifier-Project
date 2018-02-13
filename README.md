@@ -24,7 +24,12 @@ The goals / steps of this project are the following:
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
+## Rubric Points
+### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
+
 ---
+### Writeup / README
+
 ### Data Set Summary & Exploration
 
 #### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
@@ -32,15 +37,15 @@ The goals / steps of this project are the following:
 I used the pandas library to calculate summary statistics of the traffic
 signs data set:
 
-* The size of training set is 34799
-* The size of the validation set is 4410
-* The size of test set is 12630
-* The shape of a traffic sign image is (32 x 32 x 3)
-* The number of unique classes/labels in the data set is 43
+* The size of training set is ?
+* The size of the validation set is ?
+* The size of test set is ?
+* The shape of a traffic sign image is ?
+* The number of unique classes/labels in the data set is ?
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set:
+Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
 ![alt text][image1]
 
@@ -92,8 +97,8 @@ To train the model, I used an ....
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of 99.9%
-* validation set accuracy of 93.4%
+* training set accuracy of ?
+* validation set accuracy of 94%
 * test set accuracy of 92.7%
 
 If an iterative approach was chosen:
@@ -113,21 +118,22 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](examples/12.png) ![alt text](examples/17.png) ![alt text](examples/24.png)
-![alt text](examples/33.png) ![alt text](examples/41.png)
+![alt text][image4] ![alt text][image5] ![alt text][image6] 
+![alt text][image7] ![alt text][image8]
 
+The first image might be difficult to classify because ...
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 Here are the results of the prediction:
 
-| Predicted sign		| Actual sign |
-|------------------------------ | ----------- |
-| End of no passing		| End of no passing|
-| Turn right ahead		| Turn right ahead|
-| Speed limit (30km/h)		| No entry|
-| Road narrows on the right 	| Road narrows on the right|
-| Priority road			| Priority road|
+| Image			        |     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| Stop Sign      		| Stop sign   									| 
+| U-turn     			| U-turn 										|
+| Yield					| Yield											|
+| 100 km/h	      		| Bumpy Road					 				|
+| Slippery Road			| Slippery Road      							|
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
